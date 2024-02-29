@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewpoint" content="width=device-width, initual-scale=1.0">
+      <title>Solomon Ssebuufu Portfolio Website</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/61e73d2516.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+      <div class="container">
+            <nav>
+                  <img src="solomons/asset.png" class="logo">
+                  <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                  </ul>
+                  <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                  <p>Hi there, this is <span>Solomon</span><br>Daniel Ssebuufu from<br> Uganda.</p>
+                        <h1>Currently a professional in<br><span>CNC Programming.</span></h1>
+            </div>
+      </div>
+</div>
+<!--------------about------------------>
+<div id="about">
+      <div class="container">
+            <div class="row">
+                  <div class="about-col-1">
+                        <img src="solomons/AirBrush_202310232249311.jpg">
+                  </div>
+                  <div class="about-col-2">
+                      <h1 class="sub-title">About Me</h1>
+                      <p>Firstly, I'am a man that loves the Lord. I'm African, born in Uganda which is located in the Eastern part of Africa.
+                        I'm an openminded man, I apply myself to have some knowledge about most things for "diversity in all its forms is the path to greatness". 
+                         I attended undergraduate education in the field of mechanical Engineering. I've gained much 
+                         passion in this field to which end I intend to make some great breakthroughs in my time. What I majorly love about
+                         mechanical engineering is the way it cuts across the different fields of life that's health, business, music etc. My
+                         interests in this field basically are, Public transport, renewable energy and control systems.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                              <ul>
+                                    <li><span>Designing softwares</span><br>Solid edge, Solidworks</li>
+                                    <li><span>Programming softwares</span><br>Mat-lab, Sci-lab, Dev C++ and VS Code</li>
+                                    <li><span>Biogas Research</span><br>Consultation on different biogas experimentation</li>
+                                    <li><span>Business plans</span><br>Development of company business plans</li>
+                                    
+                              </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                              <ul>
+                                    <li><span>2024 todate</span><br>CNC programmer</li>
+                                    <li><span>2023 to 2024</span><br>Poutry Farming</li>
+                                    <li><span>2021 - 2022</span><br>Internship at Victoria Engineering and Pumps Limited</li>
+                                    <li><span>Fall of 2020</span><br>Internship at Uganda Farmers Crop Industries</li>
+                                    <li><span>Fall of 2018</span><br>Sales personel at Kasako hardware</li>
+                              </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                              <ul>
+                                    <li><span>2019 - 2024</span><br>Bsc. Mechanical Engineering from Makerere University.</li>
+                                    <li><span>2017 - 2018</span><br>A-Level education at King's college Budo.</li>
+                                    <li><span>2013 - 2016</span><br>O-Level education at King's College Budo.</li>
+                                    <li><span>2006 - 2012</span><br>Primary Education at St. Savio Junior School Kisubi.</li>
+                                    <li><span>2004 - 2006</span><br>Nursery education at Mastered Seed School.</li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>
+<!---------------services--------------------->
+<div id="services">
+      <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                  <div>
+                        <i class="fa-solid fa-clipboard" style="color: blue;font-size: 30px;margin-bottom: 50px;"></i>
+                        <h2>Business Plan Development</h2>
+                        <p>In this sevice, I develop a document that can help one implement his different business strategies, 
+                              I can develop for an individual or a firm as a whole.</p>
+                              <!-----<a href="#">Learn more</a>---->
+                  </div>
+                  <div>
+                        <i class="fa-solid fa-cubes" style="color: blue;font-size: 30px;margin-bottom: 50px;"></i>
+                        <h2>Engineering design</h2>
+                        <p>In this sevice, I use a design software like solidworks or v carve to design a specific product either for CNC cutting or 3D printing, I can also study and fully 
+                              explain an engineering drawing to a client however complex.</p>
+                             <!------ <a href="#">Learn more</a>---->
+                  </div>
+                  <div>
+                        <i class="fa-solid fa-gas-pump" style="color: blue;font-size: 30px;margin-bottom: 50px;"></i>
+                        <h2>Biogas Research</h2>
+                        <p>In this sevice, I can use my biogas experience to assist a person intending to carry out an experimentation
+                              related with biogas, be it study, optimization etc.</p>
+                            <!----  <a href="#">Learn more</a>---->
+                  </div>
+            </div>
+      </div>
+</div>
+<!-----------------------portfolio--------------->
+<div id="portfolio">
+      <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+            <div class="work">
+                  <img src="solomons/CNC designing.jpg">
+                  <div class="layer">
+                        <h3>CNC programming</h3>
+                        <p> I've developed business plans for some companies. 
+                        </p>
+                        <a href="solomons/Collected CNC work.zip"><i class="fa-solid fa-arrow-up-right-from-square" style="color: blue;"></i></a>
+                  </div>
+            </div>
+            <div class="work">
+                  <img src="solomons/Biogas research.jpg">
+                  <div class="layer">
+                        <h3>Biogas research and experimentation</h3>
+                        <p>As per now, most of my reaserch has been performed in the field of renewable energy, optimization of biogas production.
+                        </p>
+                        <a href="solomons/Biogas research.zip"><i class="fa-solid fa-arrow-up-right-from-square" style="color: blue;"></i></a>
+                  </div>
+            </div>
+            <div class="work">
+                  <img src="solomons/product design.jpg">
+                  <div class="layer">
+                        <h3>Engineering design </h3>
+                        <p> I've obtained some great skill with some of the different product design softwares like solidedge and solidworks.
+                        </p>
+                        <a href="solomons/Solid work designs.zip"><i class="fa-solid fa-arrow-up-right-from-square" style="color: blue;"></i></a>
+                  </div>
+            </div>
+            <div class="work">
+                  <img src="solomons/business plan 3.jpeg">
+                  <div class="layer">
+                        <h3>Business Plan Development</h3>
+                        <p> Applying some of the knowledge learnt under engineering management, I have learnt the art of business plans development. Business plans eneble entrepreneurs to focus on the specific steps necessary
+                              for them to make business ideas succeeed, they are also a helpful tool to achieve short and long term goals.
+                        </p>
+                        <a href="solomons/Business Plans.zip"><i class="fa-solid fa-arrow-up-right-from-square" style="color: blue;"></i></a>
+                  </div>
+            </div>
+      </div>
+<!----<a href="#" class="btn">See more</a> 
+      </div>  -------->
+</div>
+<!------- ---------- contact------------- ---->
+
+<div id="contact">
+      <div class="container">
+            <div class="row">
+                  <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane" style="color: blue;"></i>solomonssebuufu9@gmail.com</p>
+                        <p><i class="fa-solid fa-phone" style="color: blue;"></i>+256787509563</p>
+                        <p><i class="fa-solid fa-phone" style="color: blue;"></i>+256750458848</p>
+                        <div class="social-icons">
+                              <a href="https://facebook.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                              </div>
+                    <a href="solomons/Solomon_Ssebuufu_CV.pdf" download class="btn btn2">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                              <input type="text" name="Name" placeholder="Your Name" required>
+                              <input type="email" name="Email" placeholder="Your Email" required>
+                              <textarea name="Message" rows"6" placeholder="Your Message"></textarea>
+                              <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                  </div>
+            </div>
+
+      </div>
+      <div class="copyright">
+            <p>Copyright © Kevin with <i class="fa-solid fa-heart" style="color: blue;"></i> by easy Tutorials.</p>
+      </div>
+</div>
+
+<script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+            for(tablink of tablinks){
+                  tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                  tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+      }
+    
+</script>
+
+<script>
+
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu(){
+            sidemeu.style.right = "0";
+      }
+      function closemenu(){
+            sidemeu.style.right = "-200px"
+
+      }
+</script>
+<script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwEgZzunG-PgBr5Nl9LObnyeHE1490DLbtuHrJfn8uQ6dwYCOOsLRif2GW8WZOr-lVHww/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                  msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+</body>
+</html>
